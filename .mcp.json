@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "memory-bank": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "vscode-memory-bank-mcp@latest"
+      ],
+      "env": {
+        "MEMORY_BANK_PATH": "${workspaceFolder}/memory-bank"
+      }
+    }
+  }
+}
