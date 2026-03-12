@@ -1,31 +1,19 @@
 {
   "name": "memory-bank",
-  "displayName": "Memory Bank",
   "description": "Persistent AI project memory across sessions — structured documentation, task management, knowledge graph, and MCP tools for GitHub Copilot agents.",
   "version": "0.3.0",
-  "publisher": "user216",
-  "license": "Apache-2.0",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/user216/memory-bank-plugin.git"
+  "keywords": ["memory", "context", "mcp", "ai-memory", "knowledge-graph"],
+  "author": {
+    "name": "user216",
+    "url": "https://github.com/user216"
   },
-  "skills": [
-    "./skills/managing-memory-bank"
-  ],
+  "repository": "https://github.com/user216/memory-bank-plugin",
+  "license": "Apache-2.0",
   "agents": [
     "./agents/memory-planner.agent.md",
     "./agents/memory-worker.agent.md"
   ],
-  "prompts": [
-    "./prompts/memory-init.prompt.md",
-    "./prompts/memory-review.prompt.md",
-    "./prompts/memory-task.prompt.md",
-    "./prompts/memory-update.prompt.md"
-  ],
-  "instructions": [
-    "./instructions/memory-bank.instructions.md"
-  ],
-  "hooks": [
-    "./hooks/memory-hooks.json"
+  "skills": [
+    "./skills/managing-memory-bank"
   ]
 }
