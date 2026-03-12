@@ -14,6 +14,7 @@
     "./agents/memory-worker.agent.md"
   ],
   "skills": [
-    "./skills/managing-memory-bank"
+    "./skills/managing-memory-bank",
+    "./skills/building-vscode-agent-plugins"
   ]
 }
